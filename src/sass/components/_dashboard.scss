@@ -1,0 +1,56 @@
+.dashboard {
+
+    &__container {
+
+        &__header {
+
+            &__title {
+                padding: 1rem 0 1rem;
+                font-size: 2rem;
+                font-weight: 550;
+            }
+        }
+
+        &__statistical {
+            margin-top: 1rem;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+
+            &__item {
+               display: flex;
+               box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+               padding: 1rem 6rem;
+               border: 1px solid #ccc;
+                align-items: center;
+               &__left {
+                font-size: 2rem;
+               }
+               
+               &__right {
+                margin-left: 5px;
+                 p:first-child {
+                    margin-bottom: 5px;
+                 }
+                 p:nth-child(2) {
+                    color: rgb(156, 156, 156);
+                 }
+               }
+            }
+        }
+
+        &__chart {
+            margin-top: 30px;
+            height: 25vw;
+            width: 100%;
+            box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+
+            &__title {
+                font-size: 1.5rem;
+                font-weight: 550;
+                padding-top: 10px;
+                margin: 0 0 15px 15px;
+            }
+        }
+    }
+}
